@@ -63,7 +63,7 @@ logging = logging.getLogger()
 
 
 bot = Client("bot",
-             bot_token= "7462259477:AAHyWahLQiWgHf1RfPpu1zacwvFP-H2a5QU",
+             bot_token= "6861151083:AAFb9BFeV-4zsQ-XpN4DAujE_rgzYhfFv10",
              api_id=22626671,
              api_hash= "4081196bbe59a5d6a7fd786b51230bd9")
 auth_users = [1877735614]
