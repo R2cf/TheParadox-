@@ -63,10 +63,10 @@ logging = logging.getLogger()
 
 
 bot = Client("bot",
-             bot_token= "7061081267:AAH8frAWfGkf0GhU1DZNcW04N6bmzJc5k8k",
+             bot_token= "7462259477:AAHyWahLQiWgHf1RfPpu1zacwvFP-H2a5QU",
              api_id=22626671,
              api_hash= "4081196bbe59a5d6a7fd786b51230bd9")
-auth_users = [5498931783]
+auth_users = [1877735614]
 sudo_users = auth_users
 sudo_groups = [-1002116155974]
 
@@ -269,8 +269,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎬 ] Vid ID :** {str(count).zfill(3)}\n**File Title :** {name1} {res} {MR}.mp4\n**Batch Name :** {raw_text0}\n**Extracted By ➤ **@vijaysahu_2'
-                cc1 = f'**[ 📕 ] Pdf ID :** {str(count).zfill(3)}\n**File Title :** {name1} {MR}.pdf \n**Batch Name :** {raw_text0}\n**Extracted By ➤ **@vijaysahu_2'
+                cc = f'**[ 🎬 ] Vid ID :** {str(count).zfill(3)}\n**File Title :** {name1} {res} {MR}.mp4\n**Batch Name :** {raw_text0}\n**Extracted By ➤ **@contactparadoxbot'
+                cc1 = f'**[ 📕 ] Pdf ID :** {str(count).zfill(3)}\n**File Title :** {name1} {MR}.pdf \n**Batch Name :** {raw_text0}\n**Extracted By ➤ **@contactparadoxbot'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
